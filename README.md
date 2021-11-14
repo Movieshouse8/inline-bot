@@ -1,4 +1,4 @@
-# Modified Version Of [Media Search bot](https://github.com/Mahesh0253/Media-Search-bot)
+# Modified Version Of [MH Media Search bot](https://t.me/movieshouse8)
 
 ## Added Features
 * Imdb posters for autofilter.
