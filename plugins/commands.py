@@ -99,7 +99,7 @@ async def start(bot, cmd):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("Search Here 🤟", switch_inline_query_current_chat=''),
+                        InlineKeyboardButton("Search Here", switch_inline_query_current_chat=''),
                         InlineKeyboardButton("😎 Mʏ Cʜᴀɴɴᴇʟ​ 😎", url="https://t.me/Movieshouse8")
                     ],
                     [
@@ -192,8 +192,8 @@ async def delete(bot, message):
 async def bot_info(bot, message):
     buttons = [
         [
-            InlineKeyboardButton('Update Channel', url='https://t.me/subin_works'),
-            InlineKeyboardButton('Source Code', url='https://github.com/subinps/Media-Search-bot')
+            InlineKeyboardButton('😎 Jᴏɪɴ Cʜᴀɴɴᴇʟ 😎', url='https://t.me/movieshouse8'),
+            InlineKeyboardButton('♻️ Jᴏɪɴ Gʀᴏᴜᴘ ♻️', url='https://t.me/mh_request')
         ]
         ]
     await message.reply(text="Language : <code>Python3</code>\nChannel : <a href='https://t.me/movieshouse8/'>Jᴏɪɴ Cʜᴀɴɴᴇʟ</a>\nGroup : <a href='https://t.me/mh_request'>Jᴏɪɴ Gʀᴏᴜᴘ</a>\nUpdate Channel : <a href='https://t.me/kunal_nagar_01'>Click me</a> </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
