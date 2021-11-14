@@ -196,4 +196,4 @@ async def bot_info(bot, message):
             InlineKeyboardButton('Source Code', url='https://github.com/subinps/Media-Search-bot')
         ]
         ]
-    await message.reply(text="Language : <code>Python3</code>\nLibrary : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio</a>\nSource Code : <a href='https://github.com/subinps/Media-Search-bot'>Click here</a>\nUpdate Channel : <a href='https://t.me/subin_works'>XTZ Bots</a> </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
+    await message.reply(text="Language : <code>Python3</code>\nChannel : <a href='https://t.me/movieshouse8/'>Jᴏɪɴ Cʜᴀɴɴᴇʟ</a>\nGroup : <a href='https://t.me/mh_request'>Jᴏɪɴ Gʀᴏᴜᴘ</a>\nUpdate Channel : <a href='https://t.me/kunal_nagar_01'>Click me</a> </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
