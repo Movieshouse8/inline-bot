@@ -67,7 +67,7 @@ async def start(bot, cmd):
                 buttons = [
                     [
                         InlineKeyboardButton('Search again', switch_inline_query_current_chat=''),
-                        InlineKeyboardButton('More Bots', url='https://t.me/subin_works/122')
+                        InlineKeyboardButton('😎 Mʏ Cʜᴀɴɴᴇʟ​ 😎', url='https://t.me/Movieshouse8')
                     ]
                     ]
                 await bot.send_cached_media(
@@ -99,11 +99,11 @@ async def start(bot, cmd):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("Search Here", switch_inline_query_current_chat=''),
-                        InlineKeyboardButton("Other Bots", url="https://t.me/subin_works/122")
+                        InlineKeyboardButton("Search Here 🤟", switch_inline_query_current_chat=''),
+                        InlineKeyboardButton("😎 Mʏ Cʜᴀɴɴᴇʟ​ 😎", url="https://t.me/Movieshouse8")
                     ],
                     [
-                        InlineKeyboardButton("About", callback_data="about")
+                        InlineKeyboardButton("Cᴏɴᴛᴀᴄᴛ 😜 ", callback_data="about")
                     ]
                 ]
             )
